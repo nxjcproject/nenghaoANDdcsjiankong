@@ -1,0 +1,48 @@
+﻿body {
+    
+}
+table.mytable {
+   filter:alpha(Opacity=100);
+   -moz-opacity:1;
+   opacity: 1;
+}
+    table.mytable td {
+        /*border-width: 1px;*/
+        /*padding: 2px;*/
+        /*border-style: solid;
+        border-color: #666666;*/
+        /*text-align: right;*/
+    }
+    table.mytable td span {
+        display:block;
+        text-align:right;
+        /*float:right;*/
+        color:rgb(0,255,0);
+        font-size:12px;
+        font-weight:bold;
+        width:60px;
+        height:15px;
+        /*position: relative*/
+    }
+
+.mchart:hover{
+    border: 0px solid black;
+    cursor: cell;
+    /*background:blue;*/ 
+    color:yellow;
+    text-decoration:underline;
+    /*filter:alpha(opacity=100);*/   /* 支持 IE 浏览器 */
+    /*-moz-opacity:1;*/          /* 支持 FireFox 浏览器 */
+    /*opacity:1;*/               /* 支持 Chrome, Opera, Safari 等浏览器 */
+}
+.comprehensive:hover{
+    border: 0px solid black;
+    cursor: cell;
+    /*background:blue;*/ 
+    color:yellow;
+    text-decoration:underline;
+    /*filter:alpha(opacity=100);*/   /* 支持 IE 浏览器 */
+    /*-moz-opacity:1;*/          /* 支持 FireFox 浏览器 */
+    /*opacity:1;*/               /* 支持 Chrome, Opera, Safari 等浏览器 */
+}
+

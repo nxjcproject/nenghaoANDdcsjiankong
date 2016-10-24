@@ -1,0 +1,11 @@
+E:\NXJC\项目文件\nenghaojiankongkuangjia\Monitor_shell\Monitor_shell.Infrastructure\bin\Release\Monitor_shell.Infrastructure.dll
+E:\NXJC\项目文件\nenghaojiankongkuangjia\Monitor_shell\Monitor_shell.Infrastructure\bin\Release\Monitor_shell.Infrastructure.pdb
+E:\NXJC\项目文件\nenghaojiankongkuangjia\Monitor_shell\Monitor_shell.Infrastructure\bin\Release\SqlServerDataAdapter.dll
+E:\NXJC\项目文件\nenghaojiankongkuangjia\Monitor_shell\Monitor_shell.Infrastructure\obj\Release\Monitor_shell.Infrastructure.dll
+E:\NXJC\项目文件\nenghaojiankongkuangjia\Monitor_shell\Monitor_shell.Infrastructure\obj\Release\Monitor_shell.Infrastructure.pdb
+C:\工作\编程\恒拓软件\三层框架V3.1\Monitor_shell\Monitor_shell.Infrastructure\bin\Release\Monitor_shell.Infrastructure.dll
+C:\工作\编程\恒拓软件\三层框架V3.1\Monitor_shell\Monitor_shell.Infrastructure\bin\Release\Monitor_shell.Infrastructure.pdb
+C:\工作\编程\恒拓软件\三层框架V3.1\Monitor_shell\Monitor_shell.Infrastructure\bin\Release\SqlServerDataAdapter.dll
+C:\工作\编程\恒拓软件\三层框架V3.1\Monitor_shell\Monitor_shell.Infrastructure\bin\Release\AutoMapper.dll
+C:\工作\编程\恒拓软件\三层框架V3.1\Monitor_shell\Monitor_shell.Infrastructure\obj\Release\Monitor_shell.Infrastructure.dll
+C:\工作\编程\恒拓软件\三层框架V3.1\Monitor_shell\Monitor_shell.Infrastructure\obj\Release\Monitor_shell.Infrastructure.pdb

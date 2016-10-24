@@ -1,0 +1,14 @@
+C:\Users\feng\Desktop\中宁画面\最终、\Monitor_znc\Monitor_znc.Web\bin\Monitor_znc.Web.dll
+C:\Users\feng\Desktop\中宁画面\最终、\Monitor_znc\Monitor_znc.Web\bin\Monitor_znc.Web.pdb
+C:\Users\feng\Desktop\中宁画面\最终、\Monitor_znc\Monitor_znc.Web\bin\AutoSetParameters.dll
+C:\Users\feng\Desktop\中宁画面\最终、\Monitor_znc\Monitor_znc.Web\bin\StatisticalReport.Infrastructure.dll
+C:\Users\feng\Desktop\中宁画面\最终、\Monitor_znc\Monitor_znc.Web\obj\Debug\Monitor_znc.Web.csprojResolveAssemblyReference.cache
+C:\Users\feng\Desktop\中宁画面\最终、\Monitor_znc\Monitor_znc.Web\obj\Debug\Monitor_znc.Web.dll
+C:\Users\feng\Desktop\中宁画面\最终、\Monitor_znc\Monitor_znc.Web\obj\Debug\Monitor_znc.Web.pdb
+E:\2016.10.20整理\DCS和能源\Monitor_znc2016.10.20改\Monitor_znc\Monitor_znc.Web\bin\Monitor_znc.Web.dll
+E:\2016.10.20整理\DCS和能源\Monitor_znc2016.10.20改\Monitor_znc\Monitor_znc.Web\bin\Monitor_znc.Web.pdb
+E:\2016.10.20整理\DCS和能源\Monitor_znc2016.10.20改\Monitor_znc\Monitor_znc.Web\bin\AutoSetParameters.dll
+E:\2016.10.20整理\DCS和能源\Monitor_znc2016.10.20改\Monitor_znc\Monitor_znc.Web\bin\StatisticalReport.Infrastructure.dll
+E:\2016.10.20整理\DCS和能源\Monitor_znc2016.10.20改\Monitor_znc\Monitor_znc.Web\obj\Debug\Monitor_znc.Web.csprojResolveAssemblyReference.cache
+E:\2016.10.20整理\DCS和能源\Monitor_znc2016.10.20改\Monitor_znc\Monitor_znc.Web\obj\Debug\Monitor_znc.Web.dll
+E:\2016.10.20整理\DCS和能源\Monitor_znc2016.10.20改\Monitor_znc\Monitor_znc.Web\obj\Debug\Monitor_znc.Web.pdb

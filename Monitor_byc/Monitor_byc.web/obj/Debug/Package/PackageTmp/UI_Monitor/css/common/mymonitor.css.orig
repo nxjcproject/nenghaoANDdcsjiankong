@@ -1,0 +1,46 @@
+﻿body {
+    
+}
+table.mytable {
+   filter:alpha(Opacity=100);
+   -moz-opacity:1;
+   opacity: 1;
+}
+    table.mytable td {
+<<<<<<< HEAD
+        border-width: 1px;
+        /*padding: 4px;*/
+        border-style: solid;
+        border-color: #666666;
+        background-color:rgb(215, 230, 234);
+=======
+        /*border-width: 1px;*/
+        padding: 2px;
+        /*border-style: solid;
+        border-color: #666666;*/
+>>>>>>> 更改监控画面
+        /*text-align: right;*/
+    }
+    table.mytable td span {
+        display:block;
+        text-align:right;
+        /*float:right;*/
+        color:green;
+        font-size:12px;
+        font-weight:bold;
+        width:65px;
+        height:15px;
+        /*position: relative*/
+    }
+<<<<<<< HEAD
+
+.processBorder {
+    border: 1px dashed;
+}
+.processText {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+=======
+>>>>>>> 更改监控画面

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6A51128-ABF1-4332-AC9D-910D585F801F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Monitor_shell.Service</RootNamespace>
+    <AssemblyName>Monitor_shell.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoSetParameters, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\AutoSetParameters.dll</HintPath>
+    </Reference>
+    <Reference Include="EnergyConsumption">
+      <HintPath>..\..\Lib\EnergyConsumption.dll</HintPath>
+    </Reference>
+    <Reference Include="SqlServerDataAdapter">
+      <HintPath>..\..\Lib\SqlServerDataAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="Standard_GB16780-2012, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Standard_GB16780-2012.dll</HintPath>
+    </Reference>
+    <Reference Include="StatisticalReport.Infrastructure">
+      <HintPath>..\..\Lib\StatisticalReport.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alarm\AlarmService.cs" />
+    <Compile Include="DisplayName\DisplayNameHelper.cs" />
+    <Compile Include="FormulaEnergy\FormulaEnergyService.cs" />
+    <Compile Include="FormulaEnergy\FormulaPowerService.cs" />
+    <Compile Include="Formula\FormulaHelper.cs" />
+    <Compile Include="MeterStatistics\AmmeterData.cs" />
+    <Compile Include="MeterStatistics\MeterStatisticsHelper.cs" />
+    <Compile Include="MeterStatistics\MeterStatisticsService.cs" />
+    <Compile Include="MeterStatistics\StatisticResult.cs" />
+    <Compile Include="MeterStatistics\VariableInfo.cs" />
+    <Compile Include="PendantTools\PowerBar.cs" />
+    <Compile Include="PendantTools\PVFClock.cs" />
+    <Compile Include="ProcessEnergyMonitor\ComprehensiveConsumptionService.cs" />
+    <Compile Include="ProcessEnergyMonitor\CorrectionValue.cs" />
+    <Compile Include="ProcessEnergyMonitor\DataBaseHelper.cs" />
+    <Compile Include="ProcessEnergyMonitor\DataItem.cs" />
+    <Compile Include="ProcessEnergyMonitor\DataSetInformation.cs" />
+    <Compile Include="ProcessEnergyMonitor\DCSMonitorShell\RunningStatus.cs" />
+    <Compile Include="ProcessEnergyMonitor\DCSMonitorShell\SyetemColor.cs" />
+    <Compile Include="ProcessEnergyMonitor\DCSMonitorShell\DCSMonitorHelper.cs" />
+    <Compile Include="ProcessEnergyMonitor\DCSMonitorShell\GaugesInfo.cs" />
+    <Compile Include="ProcessEnergyMonitor\DCSMonitorShell\TagInfo.cs" />
+    <Compile Include="ProcessEnergyMonitor\DCSMonitorShell\TagsHelper.cs" />
+    <Compile Include="ProcessEnergyMonitor\DCSMonitorShell\ViewInfoValue.cs" />
+    <Compile Include="ProcessEnergyMonitor\EnergyConsumptionMonitor.cs" />
+    <Compile Include="ProcessEnergyMonitor\EnergyContrast\EnergyContrastHelper.cs" />
+    <Compile Include="ProcessEnergyMonitor\EnergyContrast\FieldInformation.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShellService.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\CDMElectricityConsumptionProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\CDMElectricityQuantityProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\ComprehensiveConsumptionProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\Factory\DataItemProviderFactory.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\Factory\DataItemProviderType.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\Factory\IDataItemProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\Factory\IPlaybackDataItemProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\MaterialConsumptionProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\NullProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\ParametersHelper.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\RealtimeCoalConsumptionProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\RealtimeCurrentProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\RealtimeDCSProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\RealtimeElectricityConsumptionProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\RealtimeElectricityQuantityProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\RealtimePowerProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\RealtimePulverizedCoalInputProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\SumCDMElectricityConsumptionProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\SumCDMElectricityQuantityProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\SumProcessCDMElectricityConsumptionProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MonitorShell\SumProcessCDMElectricityQuantityProvider.cs" />
+    <Compile Include="ProcessEnergyMonitor\MultiMonitorShell.cs" />
+    <Compile Include="ProcessEnergyMonitor\OrganizationHelper.cs" />
+    <Compile Include="ProcessEnergyMonitor\ProcessEnergyMonitorService.cs" />
+    <Compile Include="ProcessEnergyMonitor\ProcessPowerMonitor.cs" />
+    <Compile Include="ProcessEnergyMonitor\RealtimeFormulaValueService.cs" />
+    <Compile Include="ProcessEnergyMonitor\RunningState\RunningStateService.cs" />
+    <Compile Include="ProcessEnergyMonitor\SceneMonitor.cs" />
+    <Compile Include="ProcessEnergyMonitor\SingletonForDataBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ITagValueRepository.cs" />
+    <Compile Include="Repository\RealtimeTagValueService.cs" />
+    <Compile Include="Service References\ServiceReference_RealTimeTagValue\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="TrendTool\DataProviderFactory.cs" />
+    <Compile Include="TrendTool\DCSBoolSignalTagsDataProvider.cs" />
+    <Compile Include="TrendTool\DCSDataProvider.cs" />
+    <Compile Include="TrendTool\DCSAnlogSignalTagsDataProvider.cs" />
+    <Compile Include="TrendTool\HistoryFormulaValueDataProvider.cs" />
+    <Compile Include="TrendTool\IDataProvider.cs" />
+    <Compile Include="TrendTool\MultiTrendlineRendererService.cs" />
+    <Compile Include="TrendTool\MaterialDataProvider.cs" />
+    <Compile Include="TrendTool\TrendLineService.cs" />
+    <Compile Include="TrendTool\Utility.cs" />
+    <Compile Include="TrendTool\VariableParams.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Monitor_shell.Infrastructure\Monitor_shell.Infrastructure.csproj">
+      <Project>{3d11ae6a-2769-4ce1-96a5-66ad382edd25}</Project>
+      <Name>Monitor_shell.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Service References\ServiceReference_RealTimeTagValue\Monitor_shell.Service.ServiceReference_RealTimeTagValue.AnalogDataGroup_Serialization.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference_RealTimeTagValue\Monitor_shell.Service.ServiceReference_RealTimeTagValue.DigitalDataGroup_Serialization.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference_RealTimeTagValue\Monitor_shell.Service.ServiceReference_RealTimeTagValue.ObjectDataGroup_Serialization.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ServiceReference_RealTimeTagValue\RealTimeData.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\ServiceReference_RealTimeTagValue\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference_RealTimeTagValue\RealTimeData.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference_RealTimeTagValue\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference_RealTimeTagValue\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ServiceReference_RealTimeTagValue\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

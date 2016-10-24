@@ -1,0 +1,10 @@
+E:\研究生\zx\Monitor_byc\Monitor_byc.web\bin\Monitor_byc.web.dll
+E:\研究生\zx\Monitor_byc\Monitor_byc.web\bin\Monitor_byc.web.pdb
+E:\研究生\zx\Monitor_byc\Monitor_byc.web\bin\StatisticalReport.Infrastructure.dll
+E:\研究生\zx\Monitor_byc\Monitor_byc.web\bin\AutoSetParameters.dll
+E:\研究生\zx\Monitor_byc\Monitor_byc.web\bin\Monitor_shell.Infrastructure.pdb
+E:\研究生\zx\Monitor_byc\Monitor_byc.web\bin\Monitor_shell.Service.pdb
+E:\研究生\zx\Monitor_byc\Monitor_byc.web\bin\Monitor_shell.Web.pdb
+E:\研究生\zx\Monitor_byc\Monitor_byc.web\obj\Debug\Monitor_byc.web.csprojResolveAssemblyReference.cache
+E:\研究生\zx\Monitor_byc\Monitor_byc.web\obj\Debug\Monitor_byc.web.dll
+E:\研究生\zx\Monitor_byc\Monitor_byc.web\obj\Debug\Monitor_byc.web.pdb
